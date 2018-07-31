@@ -7,6 +7,5 @@ class App < Sinatra::Base
   end
 
   post '/food' do
-    
-
+    @name 
 end
