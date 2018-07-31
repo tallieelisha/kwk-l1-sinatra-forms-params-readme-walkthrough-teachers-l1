@@ -11,3 +11,4 @@ class App < Sinatra::Base
     @fav_food= params[:food]
     erb :food
 end
+end
