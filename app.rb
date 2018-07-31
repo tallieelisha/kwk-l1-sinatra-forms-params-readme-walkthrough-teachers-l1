@@ -7,5 +7,5 @@ class App < Sinatra::Base
   end
 
   post '/food' do
-    @name 
+    @name = params[:username]
 end
